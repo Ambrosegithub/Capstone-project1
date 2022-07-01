@@ -147,7 +147,7 @@ body {
 }
 
 .logo {
- font-size: 14px;
+  font-size: 14px;
 }
 
 .home-text h1 {
@@ -656,10 +656,6 @@ body {
     height: 0;
     background: none;
     width: 100%;
-  }
-
-  .hamburger {
-    display: none;
   }
 
   #nav-link-lastchild {

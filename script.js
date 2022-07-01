@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-links');
 hamburger.addEventListener('click', () => {
-  // alert("i am here");
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
 });
@@ -12,53 +11,52 @@ document.querySelectorAll('.link').forEach((n) => n.addEventListener('click', ()
 }));
 
 const projectContainerArr = [
-    {
-      headline: 'Feature Speakers',
-      image: './images/provost.jpg',
-      name: ' Prof DR Lukeman',
-      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
-      topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
-    },
-    {
-      headline: 'Feature Speakers',
-      image: './WhatsApp.img5.jpeg',
-      name: 'Snitarian Godswill',
-      intro: 'REHO, LEHO. HND ENV HEALTH.',
-      topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
-    },
-    {
-      headline: 'Feature Speakers',
-      image: './images/photo2.jpg',
-      name: 'PROF Dr(Mrs) Ken Joyce',
-      intro: 'Msc in public Health Nurse.',
-      topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
-    },
-    {
-      headline: 'Feature Speakers',
-      image: './images/photo5.jpg',
-      name: 'PROF (Mrs) Osarienwmen Osasere',
-      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
-      topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
-    },
-    {
-      headline: 'Feature Speakers',
-      image: './images/photo4.jpg',
-      name: 'DR Lukeman',
-      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
-      topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
-    },
-    {
-      headline: 'Feature Speakers',
-      image: './images/photo3.jpg',
-      name: 'DR Lukeman',
-      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
-      topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
-    },
-  ];
-  const featureSection = document.querySelector('.feature-speaker');
-   for(let i = 0; i < projectContainerArr.length; i += 1){
-   
-    featureSection.innerHTML = `
+  {
+    headline: 'Feature Speakers',
+    image: './images/provost.jpg',
+    name: ' Prof DR Lukeman',
+    intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
+    topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
+  },
+  {
+    headline: 'Feature Speakers',
+    image: './WhatsApp.img5.jpeg',
+    name: 'Snitarian Godswill',
+    intro: 'REHO, LEHO. HND ENV HEALTH.',
+    topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
+  },
+  {
+    headline: 'Feature Speakers',
+    image: './images/photo2.jpg',
+    name: 'PROF Dr(Mrs) Ken Joyce',
+    intro: 'Msc in public Health Nurse.',
+    topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
+  },
+  {
+    headline: 'Feature Speakers',
+    image: './images/photo5.jpg',
+    name: 'PROF (Mrs) Osarienwmen Osasere',
+    intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
+    topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
+  },
+  {
+    headline: 'Feature Speakers',
+    image: './images/photo4.jpg',
+    name: 'DR Lukeman',
+    intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
+    topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
+  },
+  {
+    headline: 'Feature Speakers',
+    image: './images/photo3.jpg',
+    name: 'DR Lukeman',
+    intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Iste.',
+    topic: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Veritatis molestias consequuntur quod qui quisquam voluptatibusmaxime voluptatum harum aperiam dolores.',
+  },
+];
+const featureSection = document.querySelector('.feature-speaker');
+for (let i = 0; i < projectContainerArr.length; i += 1) {
+  featureSection.innerHTML = `
 <h3 class="featureheadline">${projectContainerArr[0].headline}</h3>
         <div class="feature-speaker-container">
           <div class="speaker1">
@@ -115,22 +113,3 @@ const projectContainerArr = [
         </span></button>
         `;
 }
-
-// const openPages = document.querySelector('#see-more-btn');
-//    const buttons = document.getElementsByClassName('view-more');
-//    buttons.classList.add('.view-more')
-//     openPages.addEventListener('click', () => {
-//       // alert("i am here")
-//     buttons.style.display = 'block';
-// });
-
-
-// buttons.forEach((button) => {
-//     button.addEventListener('click', () => {
-//       document.getElementsByClassName('view-more').style.display = 'block';
-  
-//     })
-//   });
-//   closeModal.addEventListener('click', () => {
-//     document.getElementById('my-modal').style.display = 'none';
-//   });

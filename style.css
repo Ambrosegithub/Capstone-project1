@@ -59,25 +59,6 @@ body {
   display: flex;
 }
 
-.nav-list {
-  left: 0;
-  border: 2px solid green;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: #0b132b;
-}
-
-.nav-list li {
-  list-style-type: none;
-}
 
 .nav-links {
   display: flex;
@@ -232,7 +213,7 @@ small {
 }
 
 .events span {
-  color: #da4c3b;
+  color: #ec5242;
   font-size: 30px;
 }
 
@@ -315,7 +296,7 @@ small {
   align-items: center;
   margin-bottom: 60px;
   padding: 20px auto;
-  background: #ff4f38;
+  background: #ec5242;
   height: 100px;
   width: 70%;
   align-self: center;
@@ -331,7 +312,6 @@ small {
   flex-direction: column;
   background-color: #faf9f9;
   gap: 24px;
-  border: #282b34 2px solid;
   padding: 0 30px;
 }
 
@@ -470,7 +450,7 @@ small {
 }
 
 .feature-speaker small {
-  color: #ff4f38;
+  color: #ec5242;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 30px;
@@ -537,10 +517,6 @@ small {
     display: none;
   }
 
-  .nav-list {
-    display: none;
-  }
-
   .nav-container {
     display: block;
     width: 100%;
@@ -568,20 +544,13 @@ small {
   }
 
   #about {
-    color: #ff4f38;
+    color: #ec5242;
   }
 
   .nav-link li {
     list-style: none;
   }
 
-  /*
-  .nav-link-container {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-  }
-*/
   .nav-branding {
     display: flex;
     justify-content: space-between;
@@ -631,7 +600,7 @@ small {
   #nav-link-lastchild {
     padding: 14px;
     border: 6px solid #ff4f38;
-    color: #ff4f38;
+    color: #ec5242;
   }
 
   .nav-links a {
@@ -737,6 +706,20 @@ small {
 
   .program-section {
     background-image: url(./images/bg-img.jpeg);
+  }
+
+  .hr-line {
+    position: relative;
+    top: -20px;
+    width: 60px;
+    height: 4px;
+    background-color: #ec5242;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+    text-align: center;
+    align-self: center;
   }
 
   #footer-img {

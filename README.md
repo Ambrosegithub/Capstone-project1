@@ -1,3 +1,5 @@
+# Capstone-project1
+
 ## Project Name
 "My Capstone" is a project design in quest of 'Microverse course outline' for easy scalebility, accessibity, users friendly etc. so as to navigate through the web without any stress. Best tools and technologies was in high consideration during the ideal nuturing stage, debuging tools check was used('LINTERS') from the planning stage to implemntation stage, so your free and safe ride is guaranty.
 It is set up as a requirement for Microverse Course to sastisfy both your needs and our needs.
@@ -12,6 +14,9 @@ when click on nav menu it will take you to differnt destination and sections
 --logo in the about page  takes you back to home page sections.
 ## Live Demo 
 [Link to the live demo] (https://ambrosegithub.github.io/My-porfolio/)
+
+## Video Link
+[Link to the video demo] (https://www.loom.com/share/f995084a14bb430891f5c21e476bd021)
 
 ## Built With
 The major used for this project are : 
@@ -41,4 +46,3 @@ git
  Whatsapp tel: +393512463798
  Contact: +3938817911630, +393298582707.
  
-# Capstone-project1

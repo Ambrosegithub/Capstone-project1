@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   overflow-y: scroll;
 }
 
@@ -94,7 +94,7 @@ body {
   text-align: start;
   border: 1px solid#fff;
   margin-left: 0;
-  font: 25px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -130,7 +130,6 @@ body {
   background-size: cover;
   -webkit-text-fill-color: rgb(0 0 0 / 0%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   margin: 30px 3%;
   width: 94%;
@@ -146,7 +145,6 @@ body {
   background-size: cover;
   -webkit-text-fill-color: rgb(0 0 0 / 0%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   margin: 30px 3%;
   width: 94%;
@@ -162,7 +160,9 @@ body {
   margin: 20px 0;
   color: #0b132b;
   padding: 5px;
-  box-shadow: 0 5px 5px rgba(222, 222, 222, 0.82), 0 5px 5px rgba(222, 222, 222, 0.82);
+  box-shadow:
+    0 5px 5px rgba(222, 222, 222, 0.82),
+    0 5px 5px rgba(222, 222, 222, 0.82);
   font-size: 22px;
   font-weight: 400;
 }
@@ -178,13 +178,13 @@ small {
 }
 
 .program-section {
-  background-color: url(./images/bg-img.jpeg);
+  background: url(./images/bg-img.jpeg);
   background-attachment: fixed;
   background-size: cover;
 }
 
 .programe-container {
-  background-image: url(./bg-img.jpeg);
+  background: url(./bg-img.jpeg);
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -294,7 +294,7 @@ small {
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
-  padding: 20px auto;
+  padding: 20px 0;
   background: #ec5242;
   height: 100px;
   width: 70%;

@@ -103,7 +103,7 @@ body {
   text-align: start;
   border: 1px solid#fff;
   margin-left: 0;
-  font: 25px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -131,7 +131,6 @@ body {
   background-size: cover;
   -webkit-text-fill-color: rgb(0 0 0 / 0%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   margin: 30px 3%;
   width: 94%;
@@ -147,10 +146,7 @@ body {
 }
 
 .logo {
-
   font-size: 14px;
-
-
 }
 
 .home-text h1 {
@@ -164,7 +160,6 @@ body {
   background-size: cover;
   -webkit-text-fill-color: rgb(0 0 0 / 1%);
   -webkit-background-clip: text;
-  background-clip: text;
   margin: 30px 3%;
   width: 94%;
   z-index: 10;
@@ -179,7 +174,9 @@ body {
   margin: 20px 0;
   color: #272a31;
   background-color: #fff;
-  box-shadow: 0 5px 5px rgba(222, 222, 222, 0.82), 0 5px 5px rgba(222, 222, 222, 0.82);
+  box-shadow:
+    0 5px 5px rgba(222, 222, 222, 0.82),
+    0 5px 5px rgba(222, 222, 222, 0.82);
   font-size: 20px;
   z-index: 100;
   width: 100%;
@@ -347,7 +344,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
-  padding: 20px auto;
+  padding: 20px 0;
   background: #ff4f38;
   height: 100px;
   width: 70%;

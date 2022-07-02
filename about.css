@@ -25,7 +25,8 @@ body {
   cursor: pointer;
   color: rgba(225, 170, 6, 0.9);
   margin: 20px;
-  z-index: 1;
+  z-index: 12;
+  position: fixed;
 }
 
 .bar {
@@ -78,9 +79,9 @@ body {
   text-align: start;
   transition: 1s;
   color: #fff;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   backdrop-filter: blur(30px);
-  height: 90%;
+  height: 100%;
   width: 100%;
   padding-top: 0;
 }
@@ -99,11 +100,11 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #272a31;
   text-align: start;
   border: 1px solid#fff;
   margin-left: 0;
-  font: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -131,7 +132,6 @@ body {
   background-size: cover;
   -webkit-text-fill-color: rgb(0 0 0 / 0%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   margin: 30px 3%;
   width: 94%;
@@ -147,7 +147,7 @@ body {
 }
 
 .logo {
- font-size: 14px;
+  font-size: 14px;
 }
 
 .home-text h1 {
@@ -161,7 +161,6 @@ body {
   background-size: cover;
   -webkit-text-fill-color: rgb(0 0 0 / 1%);
   -webkit-background-clip: text;
-  background-clip: text;
   margin: 30px 3%;
   width: 94%;
   z-index: 10;
@@ -344,7 +343,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
-  padding: 20px auto;
+  padding: 20px 0;
   background: #ff4f38;
   height: 100px;
   width: 70%;
@@ -511,6 +510,7 @@ body {
   text-align: center;
   font-size: 24px;
   padding: 20px;
+  gap: 20%;
 }
 
 .partners img {
@@ -656,6 +656,7 @@ body {
     height: 0;
     background: none;
     width: 100%;
+    position: absolute;
   }
 
   #nav-link-lastchild {
@@ -766,8 +767,18 @@ body {
     margin-bottom: 40px;
   }
 
+  .partners {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
   .partner-container {
     display: flex;
+    width: 50%;
+    align-self: center;
   }
 
   .program-section {

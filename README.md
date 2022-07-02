@@ -17,7 +17,7 @@ when click on nav menu it will take you to differnt destination and sections
 - Languages: HTML, CSS AND JAVASCRIPT DOM
 - Technologies: GITHUB AND LINTER
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ambrosegithub.github.io/Capstone-project1/)
 
 [link to video Demo](https://www.loom.com/share/f995084a14bb430891f5c21e476bd021)
 To get a local copy up and running follow these simple example steps.
@@ -34,9 +34,8 @@ Install
 ## Authors
  Isigba Ambrose
 👤 
-- GitHub: [@githubhandle](https://github.com/Ambrosegithub)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ambrosegithub](https://github.com/Ambrosegithub)
+- TEL: 3881791630.
 
 
 ## 🤝 Contributing
